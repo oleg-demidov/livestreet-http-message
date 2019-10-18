@@ -18,10 +18,11 @@
 namespace LS\HTTP;
 
 /**
- * Description of Request
+ * Description of Response
  *
  * @author oleg
  */
-class Request extends \PhpComp\Http\MessageTest\ServerRequestTest{
-    use \PhpComp\Http\Message\Traits\ExtendedRequestTrait;
+class Response extends \PhpComp\Http\Message\Response{
+    
+    use \PhpComp\Http\Message\Traits\ExtendedResponseTrait;
 }
