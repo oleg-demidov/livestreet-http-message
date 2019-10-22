@@ -22,6 +22,6 @@ namespace LS\HTTP;
  *
  * @author oleg
  */
-class Request extends \PhpComp\Http\MessageTest\ServerRequestTest{
+class Request extends \PhpComp\Http\Message\Request{
     use \PhpComp\Http\Message\Traits\ExtendedRequestTrait;
 }
